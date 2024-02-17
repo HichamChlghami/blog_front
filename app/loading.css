@@ -1,0 +1,53 @@
+
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+}
+
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: black; /* Dot color */
+  border-radius: 50%;
+  animation: blink 2s infinite ease-in-out both;
+  margin: 5px ;
+}
+.dot1 {
+  width: 12px;
+  height: 12px;
+  background-color: black; /* Dot color */
+  border-radius: 50%;
+  animation: blink 3s infinite ease-in-out both;
+  margin: 5px ;
+}
+.dot2 {
+  width: 12px;
+  height: 12px;
+  background-color: black; /* Dot color */
+  border-radius: 50%;
+  animation: blink 1s infinite ease-in-out both;
+  margin: 5px ;
+}
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+
+
+  .loader-text {
+    margin-top: 20px;
+    font-size: 24px;
+    color: black;
+  }
+    

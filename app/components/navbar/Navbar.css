@@ -1,0 +1,328 @@
+*{
+    text-transform: capitalize;
+}
+.navbar{
+    width: 100%;
+
+}
+.user{
+    color: yellow;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    text-transform: capitalize;
+}
+.navbar.navfixed{
+    margin-bottom: 100px;
+}
+.search_pragraph{
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.Navbar_logo0{
+    width: 300px;
+    margin: auto;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.image_logo0{
+    width: 300px;
+    height: 150px;
+    
+}
+.gpt3__Navbar{
+    
+     display: flex; 
+    align-items: center; 
+    width: 94%;
+    margin: auto;
+    display: flex; 
+   align-items: center; 
+   /* Additional styles */
+   background: black;
+   padding: 8px 1px 8px 1px;
+
+}
+
+.gpt3__Navbar-logo{
+    width: 100px;
+    height: 55px;
+    display: none;
+}
+.navbar_logo{
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+}
+.gpt3__Navbar-container{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+margin: auto;
+
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.fixed{
+    margin-bottom: 100px;
+}
+.gpt3__Navbar-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* here  we have style for links button */
+.gpt3__Navbar-content{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+ .button_links{
+text-decoration: none;
+cursor: pointer;
+
+    color: antiquewhite;
+    font-size: 1rem;
+    font-weight:600 ;
+margin:0 1.1rem;
+
+}
+ .button_links:hover{
+color: yellow;
+text-decoration: underline;
+}
+
+/* tsyle for login and signUp */
+
+.gpt3__Navbar-contact{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:2rem ;
+}
+
+.navbar_sginup{
+
+    text-decoration: none;
+
+  color: #000 !important;
+    background:yellow;
+  border-radius: 0 10px  10px 0;
+  padding: 10px;
+  
+}
+.navbar_sginup:hover{
+    background:black;
+    color : yellow !important;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-color: white;
+}
+
+
+.navbar_login{
+    text-decoration: none;
+   background: #000;
+   color: yellow;
+  padding: 10px;
+  margin-left: 10px;
+  border-left:2px solid  yellow;
+  border-top:2px solid  yellow;
+  border-bottom:2px solid  yellow;
+  border-radius: 10px 0 0 10px;
+
+
+}
+.navbar_login:hover{
+    background:black;
+    color : yellow ;
+    text-decoration-color: yellow;
+    text-decoration: underline;
+    text-decoration-color: white;
+
+    border-left:2px solid #000;
+    border-top:2px solid  #000;
+    border-bottom:2px solid  #000;
+ 
+}
+
+
+
+
+
+
+
+
+/* this for menu  */
+.gpt3__Navbar-menu{
+    margin: 1rem;
+    display: none;
+    /* position: relative; */
+}
+.gpt3__Navbar-menu svg{
+    cursor: pointer;
+}
+.gpt3__Navbar-menu__container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: #000;
+    padding: 2rem;
+    position: absolute;
+    top:40.7px;
+    right:-39px ;
+    margin-top: 1.3rem;
+    margin-right: 40px;
+    min-width: 240px;
+    /* border-radius: 5px; */
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.gpt3__Navbar-menu__container-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+
+}
+.gpt3__Navbar-menu__container .button_links{
+    margin: 0.7rem 0;
+}
+
+
+.gpt3__Navbar-menu__container-links .button_links {
+    color: antiquewhite;
+    font-size: 1rem;
+    font-weight:600 ;
+}
+.gpt3__Navbar-menu__container-links .button_links:hover{
+color: yellow;
+
+    text-decoration: underline;
+}
+
+
+.navbar_sginup:hover{
+    cursor: pointer;
+}
+
+
+
+.gpt3__Navbar-sgin{
+    margin-top: 15px;
+    display: none;
+}
+
+
+@media screen and (max-width:1180px) {
+    .gpt3__Navbar{
+       
+        width: 100%;
+            
+            }
+
+            
+
+}
+@media screen and (max-width:1075px) {
+
+  .navbar_search{
+    background-color: yellow;
+    margin-top:-11px ;
+  }
+    .gpt3__Navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .gpt3__Navbar.fixed{
+        position: fixed;
+        top: 0px;
+        left: 0;
+        right: 0;
+    }
+   
+   
+
+    .gpt3__Navbar-logo{
+
+        display: block;
+    }
+
+    .gpt3__Navbar{
+    
+        
+      padding: 5px 1px 5px 1px;
+   
+   }
+
+
+    .gpt3__Navbar-content{
+            display: none;
+    }
+    .gpt3__Navbar-menu{
+        display: flex;
+
+    }
+
+   
+    .Navbar_logo0,.image_logo0{
+        display: none;
+    }
+    .navbar{
+        margin-bottom: 130px;
+    }
+
+   
+}
+
+@media screen and (max-width:550px) {
+    .navbar_search{
+        background-color: yellow;
+        margin-top:0px ;
+      }
+    .gpt3__Navbar-contact{
+        display: none;
+    }
+    .gpt3__Navbar-sgin{
+        display: block;
+    }
+   
+
+
+
+
+    .gpt3__Navbar{
+    
+     
+      padding: 1px ;
+   
+   }
+
+
+   .navbar_logo{
+    margin-left: 20px;
+}
+.navbar{
+    margin-bottom: 90px;
+}
+}

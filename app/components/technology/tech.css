@@ -1,0 +1,386 @@
+.technology{
+    width: 100%;
+    margin-top: 30px;
+}
+.show{
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    background:white;
+    border: 3px solid black;
+    padding: 5px 15px 5px 15px ;
+    width: fit-content;
+    border-radius: 80px;
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.show:hover{
+    background-color: black;
+    color: white;
+
+}
+
+/* the  definition title */
+.definition{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.definition_p{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #000;
+    margin-left: 20px;
+    white-space: nowrap;
+
+}
+.definition_line {
+    width: 70%;
+    margin-left: 20px;
+margin-right: 10px;
+    border-bottom: 4px solid yellow; 
+  }
+
+
+/* big and  titles posts  */
+.big_titles {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Add other necessary styles */
+  }
+  
+  .titles_post {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Add other necessary styles */
+  }
+  /* small  cards post  */
+  .technology_smll_card{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  /* the  big  bost from  technology  section */
+  .techbig{
+    width: 600px;
+    display: flex;
+   
+  }
+.techbig_card{
+    width: 600px;
+    background-color: rgba(252, 238, 33, 0.26);
+
+    padding-bottom: 20px;
+
+}
+.techbig_card_img{
+    width: 600px;
+
+}
+.techbig_card_image{
+    width: 100%;
+}
+.techbig_card_title{
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    
+}
+
+
+
+
+.techbig_card_description{
+    width: 96%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 560;
+}
+.techbig_authorDate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.techbig_author{
+    margin-left: 5px;
+    font-weight: 580;
+
+}
+.techbig_date{
+    margin-right: 5px;
+    font-weight: 580;
+}
+
+
+/* here  will be  title posts  */
+.titlepost{
+    width: 600px;
+}
+.titlepost_title{
+    width: 98%;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.titlepost_date{
+    float: right;
+    margin-right:10px ;
+    margin-top: 10px;
+}
+.titlepost_line{
+    width: 100%;
+    border-bottom: 3px solid  gray;
+    margin-top: 30px;
+}
+
+/* small  posts  tech */
+.techsmall{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 24%;
+    flex-shrink: 2;
+
+
+}
+.techsmall_card{
+    background-color: rgba(252, 238, 33, 0.26);
+
+  width: 100%;
+
+    padding-bottom:40px ;
+
+}
+.techsmall_card_img{
+    width: 100%;
+height:100%;
+}
+.techsmall_card_image{
+    width: 100%;
+    height: 100%;
+}
+.techsmall_card_title{
+    
+    font-size: 1.2rem;
+    width: 96%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.techsmall_card_author{
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+@media screen   and (max-width:1200px){
+    /* big post */
+    .techbig{
+        width: 500px;
+       
+       
+      }
+    .techbig_card{
+        width: 500px;
+       
+    
+    }
+    .techbig_card_img{
+        width: 500px;
+    
+    }
+
+    /* small posts */
+    .titlepost{
+        width: 500px;
+    }
+}
+
+@media screen   and (max-width:1070px){
+    /* big post */
+    .techbig{
+        width: 450px;
+       
+       
+      }
+    .techbig_card{
+        width: 450px;
+       
+    
+    }
+    .techbig_card_img{
+        width: 450px;
+    
+    }
+
+    /* small posts */
+    .titlepost{
+        width: 450px;
+    }
+    .titlepost_title{
+        width: 98%;
+        margin: auto;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
+
+
+
+@media screen   and (max-width:930px){
+
+   
+    .definition_p{
+        font-size: 1.2rem;
+      
+    }
+    .definition_line {
+        width: 70%;
+        
+      }
+
+    /* big post */
+    .techbig{
+        width:80%;
+        margin: auto;
+       
+       
+      }
+    .techbig_card{
+        width:100%;
+
+       
+    
+    }
+    .techbig_card_img{
+        width:100%;
+
+    
+    }
+
+    /* small posts */
+    .titlepost{
+        width:96%;
+        margin: auto;
+    }
+    .titlepost_title{
+        width: 100%;
+       
+    }
+    .titles_post {
+        margin-top:30px ;
+    }
+/* small  posts  tech */
+/* small  posts  tech */
+.techsmall{
+    width: 46%;
+
+
+}
+.techsmall_card{
+    margin-top: 15px;
+    
+    }
+
+
+
+
+}
+
+
+@media screen   and (max-width:700px){
+    /* big post */
+    .techbig{
+        width:96%;
+        margin: auto;
+       
+       
+      }
+   
+
+
+     
+    
+}
+
+
+
+@media screen   and (max-width:550px){
+      /* big post */
+      .techbig{
+        width:96%;
+        margin: auto;
+       
+       
+      }
+      .techbig_card_title{
+        width: 98%;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 1rem;
+        
+    }
+
+    /* small posts */
+    .titlepost{
+        width:96%;
+        margin: auto;
+    }
+    .titlepost_title{
+        width: 100%;
+       
+    }
+    .titles_post {
+        margin-top:30px ;
+    }
+    .titlepost_title{
+        width: 98%;
+        margin: auto;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    /* small  posts   tech title  */
+    .techsmall_card_title{
+    
+        font-size:0.8rem;
+    }
+    .techsmall{
+        width: 48%;
+    
+    
+    }
+/* the  definition title */
+.definition{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
+.definition_p{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #000;
+    margin-left: 10px;
+    white-space: nowrap;
+
+}
+.definition_line {
+    width: 70%;
+    margin-left: 10px;
+margin-right: 10px;
+    border-bottom: 3px solid yellow; 
+  }
+
+  
+    
+}

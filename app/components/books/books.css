@@ -1,0 +1,131 @@
+
+.books{
+width: 80%;
+margin: auto;
+
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+.books_container-content{
+    background: yellow;
+    width: 100%;
+    padding-top: 120px;
+}
+.books_title,.books_text{
+    text-align: center;
+    margin: 10px 0px;
+}
+.books_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.books_button{
+    margin: 20px;
+    text-decoration:none;
+    color: yellow;
+    background: black;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 5px 20px;
+    font-size: 1rem;
+    font-weight: 560;
+}
+.books_button:hover{
+    background: yellow;
+    color:black;
+}
+.books_images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.book_image{
+    width: 200px;
+    margin-bottom: -150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+    @media screen  and (max-width:1200px){
+        .books{
+            width: 90%;
+           
+            
+            }
+    }
+
+    @media screen  and (max-width:1100px){
+        .books{
+            width: 100%;
+           
+            
+            }
+    }
+
+    @media screen  and (max-width:1100px){
+        .book_image{
+            width: 170px;
+            margin-bottom: -130px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+        
+    }
+
+
+
+
+
+
+@media screen  and (max-width:800px){
+    .books{
+        width: 100%;
+        }
+}
+
+
+@media screen  and (max-width:600px){
+   .books_title{
+    font-size: 0.9rem;
+    font-weight: 600;
+   }
+
+
+
+   .book_image{
+    width: 120px;
+    margin-bottom: -90px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.books_text{
+    font-size: 0.9rem;
+    font-weight: 560;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.books_button{
+    font-size: 0.9rem;
+    font-weight: 580;
+    padding: 5px;
+margin-bottom: 20px;
+margin: 1px;
+
+  
+}
+
+.books_container-content{
+padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+
+
+
+}

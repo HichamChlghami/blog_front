@@ -1,0 +1,139 @@
+/* search section  */
+.navbar_search{
+    width: 100%;
+    padding-top: 2px;
+    transition: height 0.4s linear;
+
+}
+
+.search_place{
+    display: flex;
+    justify-content: center;
+   
+}
+.search_input{
+    padding: 8px;
+width: 500px;
+font-size: 1.1rem;
+border-radius: 10px 0 0 10px;
+border-top: 2px  solid gray;
+border-left: 2px  solid gray;
+border-bottom: 2px  solid gray;
+
+}
+.search_bar{
+    border-top: 2px  solid gray;
+    border-right: 2px  solid gray;
+    border-bottom: 2px  solid gray;
+
+
+    background-color: white;
+    padding: 8px;
+width: 50px;
+border-radius: 0 10px 10px 0;
+font-size: 1.1rem;
+
+
+}
+.navbar_search.fixeding{
+    position: fixed;
+    top: 59px;
+    left: 0;
+    right: 0;
+
+background:yellow;
+
+padding-bottom:2px ;
+width: 94%;
+margin: auto;
+transition: all .4s linear;
+
+}
+
+
+
+/* this is for search icon x and search */
+.FaSearch , .FaSearchX{
+    font-size: 1.5rem;
+    color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+.FaSearchX{
+    font-size: 1.7rem;
+
+}
+
+@media screen and (max-width:1075px) {
+    .navbar_search{
+        width: 100%;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        right: 0;
+    }
+    .navbar_search.fixeding{
+        position: fixed;
+        top: 68px;
+        left: 0;
+        right: 0;
+    
+    background:yellow;
+    
+    padding-bottom:2px ;
+    width: 94%;
+    margin: auto;
+    transition: all .4s linear;
+    
+    }
+    
+
+}
+
+
+
+@media screen and (max-width:700px) {
+    .navbar_search{
+        padding-top: 4px;
+
+    }
+
+    .navbar_search.fixeding{
+       
+    
+    padding-bottom:4px ;
+  
+    
+    }
+    
+
+    .search_input{
+        padding: 6px;
+    width:80%;
+    font-size: 1rem;
+
+    
+    }
+    .search_bar{
+       
+    font-size: 1rem;
+    padding: 6px;
+    
+    
+    }
+
+}
+
+@media screen  and (max-width:550px){
+    .navbar_search{
+        top: 60px;
+    }
+    .navbar_search.fixeding{
+        top:61px;
+    }
+
+
+    .FaSearch , .FaSearchX{
+        margin-right: 1rem;
+    }
+}

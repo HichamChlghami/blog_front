@@ -1,0 +1,261 @@
+*{
+    text-transform: none;
+  }
+ 
+
+.featured{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    flex: 12;
+
+}
+
+.featured.fixing{
+    margin-top: 240px;
+
+}
+.small_posts{
+    display: flex;
+    flex:6;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: flex-start; /* Add this line */
+
+}
+
+.bigpost{
+    width: 600px;
+  /* margin-left: 10px; */
+  flex:6;
+
+display: flex;
+justify-content: space-around;
+
+}
+
+
+.big_card{
+    padding-bottom:25px ;
+    width: 600px;
+    background-color: rgba(252, 238, 33, 0.26);
+
+}
+
+.big_card_img{
+    width: 100%;
+}
+.big_card_image{
+    width: 100%;
+    height:fit-content;
+
+}
+
+.big_card_title{
+    width: 96%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.big_card_description{
+    width: 94%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 570;
+  
+}
+
+
+.authorDate{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.author{
+    margin-left: 10px;
+}
+.date{
+    margin-right: 10px;
+}
+
+/* small card  section */
+
+.smallpost{
+    width: 300px;
+
+}
+.small_card{
+    background-color: rgba(252, 238, 33, 0.26);
+    width: 300px;
+    padding-bottom:40px ;
+
+}
+.small_card_img{
+    width: 100%;
+}
+.small_card_image{
+    width: 100%;
+    height:fit-content;
+
+}
+.small_card_title{
+    
+    font-size: 1.2rem;
+    width: 96%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.small_card_author{
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.ok{
+    width: 100%;
+    display: flex;
+   justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+   .ok{
+        display:none;
+     }
+     .small_posts{
+        display: flex;
+        flex:4;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-content: flex-start; /* Add this line */
+    
+    }
+}
+@media screen and (max-width:1075px) {
+    .featured{
+       
+        margin-top: 130px;
+ 
+    
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .bigpost{
+        width: 500px;
+      /* margin-left: 10px; */
+      flex:6;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    }
+    
+    
+    .big_card{
+        padding-bottom:25px ;
+        width: 500px;
+        background-color: rgba(252, 238, 33, 0.26);
+    
+    }
+}
+@media screen and (max-width: 815px) {
+    .small_posts{
+      margin-top: 20px;
+    
+    }
+    
+ }
+
+
+ @media screen and (max-width: 660px) {
+.featured{
+    display: block;
+    width: 100%;
+}
+    .bigpost{
+        display: block;
+        width: 96%;
+      margin: auto;
+    /* flex: 12; */
+    /* margin-bottom: 100px; */
+    }
+    
+.big_card{
+    padding-bottom:10px ;
+    width: 98%;
+      margin: auto;
+      background-color: rgba(252, 238, 33, 0.26);
+
+}
+
+.big_card_img{
+    width: 100%;
+   /* height: 200px; */
+}
+.big_card_image{
+   height:min-content;
+
+}
+.big_card_title{
+
+    font-size: 1.05rem;
+ 
+
+}
+
+/* small post phone */
+.small_posts{
+    /* flex: 12; */
+
+    width: 98%;
+}
+
+
+
+
+
+.smallpost{
+  width: 46%;
+
+}
+.small_card{
+    background-color: rgba(252, 238, 33, 0.26);
+
+width: 100%;
+
+    padding-bottom:40px ;
+
+}
+.small_card_img{
+    width: 100%;
+
+}
+.small_card_image{
+    width: 100%;
+
+}
+.small_card_title{
+    
+    font-size: 0.76rem;
+    width: 96%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.featured{
+       
+    margin-top: 90px;
+
+
+}
+
+
+ }

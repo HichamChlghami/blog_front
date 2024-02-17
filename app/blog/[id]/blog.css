@@ -1,0 +1,412 @@
+*{
+    text-transform: none;
+}
+/* the related post */
+.under_post_title{
+    margin-top: 55px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: -25px;
+}
+
+/* social_media style */
+.social_media{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.social_media_title{
+    text-align: center;
+    text-decoration:underline ;
+
+}
+.social_media-icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icon_share_button{
+    font-size: 1.7rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.icon_share_button:hover{
+    opacity: 0.8;
+}
+
+/* the delete style */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+.controle_button_delete{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 10px;
+}
+  .delete_button_admin{
+    display: block;
+    background: red;
+    /* margin-top: 10px; */
+    width: 80px;
+    margin: auto;
+    padding: 5px  ;
+    border-radius: 8px;
+  }
+
+.button_admin_delete , .button_admin_cancel{
+    /* display: block; */
+    background: red;
+
+    /* margin-top: 10px; */
+    width: 80px; 
+    margin: auto;
+    padding: 5px  ;
+    border-radius: 8px;
+}
+.button_admin_cancel{
+    background: blue;
+
+}
+.button_admin_delete:hover,.button_admin_cancel:hover ,.delete_button_admin:hover{
+    opacity: 0.8;
+}
+/* the finish of delete style  */
+
+/* admin button */
+.update_button_admin{
+    display: block;
+    background: blue;
+    /* margin-top: 10px; */
+    width: 80px;
+    margin: auto;
+    padding: 10px  ;
+    border-radius: 8px;
+
+}
+.update_button_admin:hover{
+    background: rgb(0, 85, 255);
+
+}
+/* admin button finished */
+
+/* button user downlaod */
+.download_button{
+    font-size: 3rem;
+    float: right;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.download_button:hover{
+    color:gray;
+}
+/* finished button for download */
+
+
+.single_h1,.single_quote{
+    margin-top: 20px;
+    margin-top: 20px;
+}
+
+.single_content{
+    margin-top: 20px;
+}
+.single_h1{
+    width: 90%;
+    margin: auto;
+
+}
+
+.deletly{
+    background: blueviolet;
+}
+
+/* quote design  */
+.single_provider{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.single-line{
+    width: 90%;
+    margin: auto;
+    border: 1.4px solid yellow;
+}
+
+.single_quote{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* single-text design */
+.single-text{
+
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 590;
+    line-height: 26px;
+
+}
+
+/* single-image design */
+.single_container_image{
+    width: 650px;
+    /* height:fit-content; */
+    height: 400px;
+
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.single_image{
+    width: 100%;
+    height: 100%;
+}
+
+/* single-title H design */
+.single_h2 , .single_h3 ,.single_h4{
+    width: 880px;
+    margin: auto;
+   
+}
+
+
+/* desgin for    tablate */ 
+@media screen and (max-width:1050px) {
+    .single_h1{
+        width: 96%;
+        margin: auto;
+        font-size: 1.7rem;
+        font-size: 700;
+    
+    }
+    .single_h2{
+        font-size: 1.4rem;
+    }
+    /* quote design  */
+
+
+
+.single_quote{
+    width: 96%;
+   
+}
+}
+@media screen and (max-width:1075px) {
+    .single_content{
+        margin-top: 90px;
+    }
+}
+
+/* design for  mobile */
+@media screen and (max-width:1050px) {
+   
+  .single_h1{
+        width: 96%;
+        margin: auto;
+        font-size: 1.7rem;
+        font-size: 700;
+    
+    }
+    .single_h2{
+        font-size: 1.4rem;
+    }
+    
+.single-line{
+    width: 98%;
+    /* margin: auto; */
+    border: 1.4px solid yellow;
+}
+
+.single_quote{
+    width: 96%;
+    font-size: 1.4rem;
+    font-weight: 580;
+}
+}
+
+
+@media screen and (max-width:900px) {
+
+    .single_container_image{
+        /* width: 650px; */
+        height:fit-content;
+        /* height: 400px; */
+    
+        
+    }
+
+    .single_h1{
+        width: 98%;
+        margin: auto;
+        font-size: 1.4rem;
+        font-size: 640;
+    
+    }
+    .single_h2{
+        font-size: 1.1rem;
+    }
+    .single_h3{
+        font-size: 1rem;
+    }
+    .single_h4{
+        font-size: 0.9rem;
+    }
+    /* quote design  */
+.single_quote{
+    font-size: 1.1rem;
+    width: 98%;
+
+}
+
+.single-line{
+width: 99%;
+    border: 1.2px solid yellow;
+}
+
+
+/* single-text design */
+.single-text{
+    width: 98%;
+    margin: auto;
+    font-size: 0.91rem;
+    font-weight: 580;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* single-image design */
+.single_container_image{
+    width: 98%;
+    /* height: 400px; */
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* titles */
+.single_h2 , .single_h3 , .single_h4{
+    width: none;
+    margin-left: 10px;
+}
+}
+
+
+@media screen  and (max-width:500px) {
+
+
+
+    .single_h1{
+        width: 99%;
+        margin: auto;
+        font-size: 1.2rem;
+        font-size: 600;
+    
+    }
+        /* quote design  */
+.single_quote{
+    font-size: 0.9rem;
+    width: 99%;
+    font-weight: 560;
+
+
+}
+/* single-image design */
+.single_container_image{
+    width: 99%;
+    /* height: 250px; */
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* titles */
+.single_h2 , .single_h3 , .single_h4{
+    width: 99%;
+    margin-left:1%;
+}
+.single_h2{
+    font-size: 1rem;
+}
+.single_h3{
+    font-size: 0.9rem;
+}
+.single_h4{
+    font-size: 0.8rem;
+}
+
+.under_post_title{
+    margin-top: 55px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: -100px;
+}
+
+/* social_media style */
+.social_media{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.social_media_title{
+    text-align: center;
+    text-decoration:underline ;
+    font-size: 1.25rem;
+
+}
+.social_media-icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icon_share_button{
+    font-size: 1.7rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.icon_share_button:hover{
+    opacity: 0.8;
+}
+
+
+/* button user downlaod */
+.download_button{
+    font-size: 2rem;
+    font-weight: bolder;
+    float: right;
+    margin-right: 50px;
+    cursor: pointer;
+}
+}
