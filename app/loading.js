@@ -1,7 +1,6 @@
 
 
 import React from 'react';
-import './Loading.css'; // Import your CSS file
 
 function Loading() {
   return (
